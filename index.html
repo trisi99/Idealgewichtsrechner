@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gewichtrechner</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <section>
+        <h1>Idealgewichtsrechner</h1>
+        <form onsubmit="return false">
+            <div>
+                <h2>Körpergröße in cm</h2>
+                <input type="number" name="size" id="size"
+                class="number">
+            </div>
+            <div>
+                <h2>Alter</h2>
+                <input type="number" name="age" id="age" class="number">
+            </div>
+            <div>
+                <h2>Körperbau</h2>
+                <input type="radio" name="body" id="big">
+                <label for="big">Breit</label>
+                <input type="radio" name="body" id="thin">
+                <label for="thin">Schmal</label>
+            </div>
+            <div class="divbut">
+                <input type="button" value="Submit" onclick="funcOne()" class="but">
+            </div>
+
+        </form>
+        <p id="p"></p>
+    </section>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

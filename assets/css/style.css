@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+body{
+    font-family: roboto;
+}
+
+section{
+    background-color: cadetblue;
+    max-width: 25%;
+    margin-inline: 35rem;
+    margin-top: 15%;
+    min-width: 25%;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 15px 15px 15px black;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-block: 20px;
+}
+
+h2{
+    padding-bottom: 20px;
+}
+
+.number{
+    height: 25px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
+}
+
+.divbut{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.but {
+    background-color: rgb(200, 164, 117);
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px brown;}
